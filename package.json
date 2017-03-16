@@ -1,0 +1,33 @@
+{
+  "name": "preact-storybook-example",
+  "version": "1.0.0",
+  "description": "An example of storybook with preact",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "start-storybook -p 6006"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csbun/preact-storybook-example.git"
+  },
+  "keywords": [
+    "storybook",
+    "preact"
+  ],
+  "author": "Hans Chan <icsbun@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/csbun/preact-storybook-example/issues"
+  },
+  "homepage": "https://github.com/csbun/preact-storybook-example#readme",
+  "devDependencies": {
+    "@kadira/storybook": "^2.35.3",
+    "babel": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.23.0",
+    "babel-preset-es2015": "^6.24.0",
+    "preact-compat": "^3.14.1"
+  },
+  "dependencies": {
+    "preact": "^7.2.0"
+  }
+}
